@@ -6,10 +6,10 @@ from keras.callbacks import CSVLogger
 from keras.models import load_model
 
 input_directory = "normalized_dataset"
-train_scenes = ["227063", "227065", "225063", "003066", "233067"]
-years = ["17_18", "18_19"]
+train_scenes = ["227063"]
+years = ["17_18"]
 num_patches = 870
-epochs = 350
+epochs = 10
 val_size = .15
 metrics = [tf.keras.metrics.Precision(), tf.keras.metrics.Recall()]
 loss = "categorical_crossentropy"
@@ -75,8 +75,4 @@ def get_train_patches():
                 yield np.concatenate([img1,img2], axis=2), mask
 
 if __name__=='__main__':
-    train(os.path.join("models", "moredata_norm_cross_350"),
-        os.path.join("models", "moredata_norm_cross"))
-    # train_from_checkpoint(os.path.join("models",  "moredata_norm_cross_350"),
-    #     os.path.join("models",  "moredata_norm_cross_lots"),
-    #     os.path.join("models",  "moredata_norm_cross"))
+    train(os.path.join("test_model"), os.path.join("test_model")
