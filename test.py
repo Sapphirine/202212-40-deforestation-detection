@@ -4,9 +4,8 @@ import os
 import numpy as np
 
 input_directory = "normalized_dataset"
-# test_scenes = ["230065"]
-test_scenes = ["230065", "224063", "002067"]
-years = ["17_18", "18_19"]
+test_scenes = ["227065"]
+years = ["17_18"]
 num_patches = 870
 batch = 16
 
@@ -34,4 +33,4 @@ def get_test_patches():
                 yield np.concatenate([img1,img2], axis=2), mask
 
 if __name__ == '__main__':
-    test_model(os.path.join("models", "original_norm_cross_250"))
+    test_model(os.path.join("test_model"))
