@@ -4,3 +4,5 @@ satellite_images/LC08_L1TP_227063_20170718_20170727_01_T1 filter=lfs diff=lfs me
 satellite_images/LC08_L1TP_227063_20180721_20180731_01_T1 filter=lfs diff=lfs merge=lfs -text
 satellite_images/LC08_L1TP_227065_20170718_20200903_02_T1 filter=lfs diff=lfs merge=lfs -text
 satellite_images/LC08_L1TP_227065_20180721_20200831_02_T1 filter=lfs diff=lfs merge=lfs -text
+/Users/michael/Library/CloudStorage/OneDrive-Personal/Columbia/Big filter=lfs diff=lfs merge=lfs -text
+Data/202212-40-deforestation-detection/satellite_images/LC08_L1TP_227063_20170718_20170727_01_T1/LC08_L1TP_227063_20170718_20170727_01_T1_2017_07_18_B5.TIF filter=lfs diff=lfs merge=lfs -text
