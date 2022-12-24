@@ -1,0 +1,6 @@
+deforestation/227063_2018.tif filter=lfs diff=lfs merge=lfs -text
+deforestation/227065_2018.tif filter=lfs diff=lfs merge=lfs -text
+satellite_images/LC08_L1TP_227063_20170718_20170727_01_T1 filter=lfs diff=lfs merge=lfs -text
+satellite_images/LC08_L1TP_227063_20180721_20180731_01_T1 filter=lfs diff=lfs merge=lfs -text
+satellite_images/LC08_L1TP_227065_20170718_20200903_02_T1 filter=lfs diff=lfs merge=lfs -text
+satellite_images/LC08_L1TP_227065_20180721_20200831_02_T1 filter=lfs diff=lfs merge=lfs -text
